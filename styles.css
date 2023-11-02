@@ -1,101 +1,114 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     height: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:rgb(222,220,224);
+    background-color: rgb(222, 220, 224);
 }
-.container{
-    margin:10px 20px;
+
+.container {
+    margin: 10px 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.leftpart{
+
+.leftpart {
     width: 40%;
 }
-h1{
-    color:royalblue;
+
+h1 {
+    color: royalblue;
     font-size: 80px;
 }
-h3{
-    color:black;
+
+h3 {
+    color: black;
     font-size: 30px;
 }
-.Rightpart{
+
+.Rightpart {
     width: 50%;
-    display:flex;
-     padding-top: 100px;
-    align-items:center;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
     flex-direction: column;
 }
-.loginpage{
+
+.loginpage {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     background-color: #fff;
-    width:450px;
-    height:370px;
-    box-shadow:-10px -10px 15px rgba(0,0,0,0.1),
-    10px 10px 15px rgba(0,0,0,0.1);
+    width: 450px;
+    height: 370px;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.1), 10px 10px 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:15px 0px;
+    padding: 15px 0px;
 }
-input{
+
+input {
     width: 380px;
-    height:50px;
-    margin:10px 0px;
-    padding:0px 10px ;
-    outline:none;
-    border:1px solid #ccc;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
     font-size: 18px;
     border-radius: 10px;
 }
-button{
+
+button {
     background-color: royalblue;
-    color:white;
+    color: white;
     width: 380px;
-    height:50px;
-    margin:10px 0px;
-    padding:0px 10px ;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
     border-radius: 10px;
-    outline:none;
+    outline: none;
 }
-p{
-    color:royalblue;
+
+p {
+    color: royalblue;
 }
-hr{
-    border:1px solid #ccc;
+
+hr {
+    border: 1px solid #ccc;
     width: 320px;
-    margin:20px 0px;
+    margin: 20px 0px;
 }
-.createaccount{
+
+.createaccount {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color:green;
-    width:250px;
-    height:50px;
-    font-size:18px;
+    background-color: green;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
     font-weight: 30px;
-    color:white;
+    color: white;
     border-radius: 10px;
 }
-span{
-    margin:20px 0px;
+
+span {
+    margin: 20px 0px;
     font-size: 18px;
     font-weight: 20px;
 }
