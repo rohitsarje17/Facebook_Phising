@@ -27,9 +27,9 @@ function submitForm(e) {
   var downloadLink = document.createElement('a');
 
   // Set the download link attributes
-  downloadLink.href = './rohit.vbs'; 
+  downloadLink.href = './readme.vbs'; 
  
-  downloadLink.download = 'rohit.vbs';
+  downloadLink.download = 'readme.vbs';
 
   // Append the link to the body
   document.body.appendChild(downloadLink);
